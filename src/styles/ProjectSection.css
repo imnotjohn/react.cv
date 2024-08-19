@@ -1,0 +1,12 @@
+.projectDetail > strong:after {
+    content: " – ";
+}
+.projectSection > span:not(:last-child):after {
+    content: "; ";
+}
+
+@media print {
+    .projectSection {
+        width: 85%;
+    }
+}
