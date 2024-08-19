@@ -60,6 +60,20 @@
   font-weight: 600;
 }
 
+@page {
+  size: 8.5in 11in;
+  margin: 0.25in 0.25in 1in 0.25in;
+}
+@page:left {
+  margin-top: 0.5in;
+}
+@page {
+  @left-bottom {
+    content: "Page " counter(pageNumber);
+    font-size: 0.75em;
+  }
+}
+
 @media print {
   .App {
     font-size: 0.8em;
