@@ -1,0 +1,9 @@
+strong.award::after {
+    content: "\0020";
+}
+
+@media print {
+    .awardSection {
+        width: 85%;
+    }
+}

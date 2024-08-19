@@ -1,0 +1,23 @@
+.headerDetail {
+    font-size: 0.85em;
+}
+
+.headerTitle {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.headerSection span {
+    margin: 0;
+    padding-right: 3em;
+}
+
+@media print {
+    .headerDetail {
+        font-size: 0.625em;
+    }
+    .headerSection span {
+        padding-right: 2.25em;
+    }
+
+}
