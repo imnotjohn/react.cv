@@ -1,0 +1,27 @@
+.cpElement {
+    align-items: center;
+    color: #eee;
+    display: flex;
+    flex-direction: row;
+    height: 1.75em;
+    justify-content: flex-start;
+    margin: 0 0 0.25em 0;
+    position: relative;
+    width: 100%;
+}
+
+.cpElement > .cpLabel {
+    align-items: center;
+    display: flex;
+    left: 1.5em;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.cpElement > .cpButton {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 1.5em;
+}

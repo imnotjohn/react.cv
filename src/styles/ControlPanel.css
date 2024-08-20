@@ -1,0 +1,35 @@
+#cp {
+    align-items: center;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 0.3em;
+    justify-content: center;
+    height: 220px;
+    opacity: 0.8;
+    padding-top: 1em;
+    position: absolute;
+    border-radius: 0.75em;
+    right: 3em;
+    text-transform: uppercase;
+    top: 3em;
+    visibility: visible;
+    width: 200px;
+    z-index: 10;
+}
+
+#cp > .cpTitle {
+    align-items: center;
+    color: #666;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0.5em;
+}
+
+/* Transitions */ 
+#cp {
+    transition-property: opacity visibility;
+    transition: opacity ease-in-out 0.2s;
+}
