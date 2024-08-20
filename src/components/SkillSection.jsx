@@ -1,6 +1,6 @@
-import '../styles/SkillsSection.css';
+import '../styles/SkillSection.css';
 
-export default function SkillsSection() {
+export default function SkillSection() {
     return (
         <div className="wrapper">
             <div className="sectionTitle">skills</div>

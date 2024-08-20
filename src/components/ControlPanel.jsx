@@ -3,11 +3,9 @@ import "../styles/ControlPanel.css";
 
 import ControlToggle from "./ControlToggle";
 
-export default function ControlPanel(props) {
+export default function ControlPanel({cpInputs}) {
     let [visibility, setVisibility] = useState(false);
     const cPanel = useRef();
-
-    const cpInputs = ["Header", "Skills", "Education", "Projects", "Experience", "Awards", "Memberships"];
 
     const handleKeyDown = (event) => {
         event.preventDefault();

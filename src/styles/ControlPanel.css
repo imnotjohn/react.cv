@@ -33,3 +33,10 @@
     transition-property: opacity visibility;
     transition: opacity ease-in-out 0.2s;
 }
+
+/* Printing */
+@media print {
+    #cp {
+        visibility: hidden;
+    }
+}
