@@ -8,7 +8,6 @@ import MembershipSection from "./components/MembershipSection";
 import AwardSection from "./components/AwardSection";
 
 import ControlPanel from './components/ControlPanel';
-import {useEffect, useState} from 'react';
 
 function App() {
   const sections = {
@@ -20,14 +19,6 @@ function App() {
     "AwardSection": true,
     "MembershipSection": true,
   }
-  // let [sections, setSections] = useState(null);
-
-  // useEffect( () => {
-  //   fetch("./data/sections.json")
-  //     .then(res => res.json())
-  //     .then(data => setSections(data))
-  //     .catch(error => console.log(error));
-  //   }, []);
 
   return (
     <div className="App">

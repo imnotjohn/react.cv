@@ -18,10 +18,36 @@
     position: absolute;
 }
 
-.cpElement > .cpButton {
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
+.checkbox {
+    display: none;
+}
+ /* Checkbox checked effect */
+ .checkbox:checked + .toggle::after {
+    left : 1.115em; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: #11ccaa;
+}
+.toggle {
+    position : absolute;
+    display : inline-block;
+    width : 2em;
+    height : 1.1em;
+    background-color: #aaa;
+    border-radius: 0.85em; /* toggle radius */
     right: 1.5em;
+}
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 0.15em; 
+    left: 0.1575em;
+    transition:  all 0.35s;
 }

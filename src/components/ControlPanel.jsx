@@ -10,7 +10,7 @@ export default function ControlPanel({cpInputs}) {
     const handleKeyDown = (event) => {
         event.preventDefault();
 
-        if (event.key == "i" || event.key == "m" || event.key == "c") {
+        if (event.key === "i" || event.key === "m" || event.key === "c") {
             setVisibility(v => !v);
         }
     }
