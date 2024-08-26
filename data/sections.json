@@ -1,9 +1,43 @@
 {
-    "HeaderSection": {"content": "", "isVisible": true},
+    "HeaderSection": {"name": "", "content": {"email": "", "location": "", "url": ""}, "isVisible": true},
     "SkillSection": {"content": "", "isVisible": true},
-    "EducationSection": {"content": "", "isVisible": true},
-    "ProjectSection": {"content": "", "isVisible": true},
-    "ExperienceSection": {"content": "", "isVisible": true},
-    "AwardSection": {"content": "", "isVisible": true},
-    "MembershipSection": {"content": "", "isVisible": true},
+    "EducationSection": [
+        {"schoolName": "", "details": "", "isVisible": true},
+        {"schoolName": "", "details": "", "isVisible": true},
+        {"schoolName": "", "details": "", "isVisible": true}
+    ],
+    "ProjectSection": [
+        {"projectName": "", "details": "", "url": "", "isVisible": true},
+        {"projectName": "", "details": "", "url": "", "isVisible": true},
+        {"projectName": "", "details": "", "url": "", "isVisible": true},
+        {"projectName": "", "details": "", "url": "", "isVisible": true},
+        {"projectName": "", "details": "", "url": "", "isVisible": true},
+        {"projectName": "", "details": "", "url": "", "isVisible": true}
+    ],
+    "ExperienceSection": [
+        {"headline": "", "content": [""], "when": "", "url": "", "isVisible": true},
+        {"headline": "", "content": [""], "when": "", "url": "", "isVisible": true}
+    ],
+    "MembershipSection": [
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true},
+        {"membership": "", "details": [""], "isVisible": true}
+    ],
+    "AwardSection": [
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true},
+        {"award": "", "details": "", "isVisible": true}
+    ]
 }
